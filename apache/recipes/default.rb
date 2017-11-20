@@ -11,7 +11,3 @@ end
 service node['apache']['package'] do
   action :start
 end
-
-service node['apache']['listen'] do
-  action :listen
-end
